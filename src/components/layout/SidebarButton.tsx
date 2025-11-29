@@ -9,14 +9,14 @@ interface SidebarButtonProps {
 export default function SidebarButton({
   children,
   onClick,
-  icon,
+  icon: Icon,
 }: SidebarButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="text-gray-400 hover:text-white hover:bg-blue-400/30 rounded-lg px-4 py-2 transition-all duration-200 flex items-center gap-3 w-full text-left"
+      className="cursor-pointer text-2xl text-gray-300 hover:text-white hover:bg-blue-400/30 rounded-lg px-4 py-2 transition-all duration-200 flex items-center gap-3 w-full my-2 "
     >
-      {icon && <span className="shrink-0">{icon}</span>}
+      {Icon && <Icon />}
       <span>{children}</span>
     </button>
   );
