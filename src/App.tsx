@@ -11,7 +11,7 @@ function App() {
           <h1 className="text-5xl font-semibold">Good Morning Adrian</h1>
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search here"
             className="my-6 px-4 py-2 bg-input text-text-primary rounded-lg placeholder-text-secondary focus:outline-none focus:ring-2 focus:ring-accent w-full focus:bg-input-focus transition-all duration-100 ease-in-out"
           />
           <div className="flex flex-col gap-4">
